@@ -1,0 +1,606 @@
+body {
+    background-color: #18181b;
+    color: white;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 190px;
+}
+
+.header {
+    height: 0.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.nav {
+    padding-left: 25.1vw;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    font-size: 15px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #ec4899;
+}
+
+.navbtn {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.Search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    width: auto;
+    position: relative;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.join-button {
+    width: 15vw;
+    height: 2.5vw;
+    margin-top: 1rem;
+    background: rgb(255, 0, 152);
+    background: linear-gradient(90deg, rgba(255, 0, 152, 1) 0%, rgba(103, 44, 119, 1) 100%);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.section-dark {
+    background-color: #3d3d3d;
+    text-align: center;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.container3 {
+    padding-top: 5vw;
+   
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-item {
+    background-color: #4d4d4d;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section-light {
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.back-link {
+    color: #7c7c7c;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.section-description {
+    font-size: 1vw;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 1rem 0;
+}
+
+.cta-button {
+    width: 15vw;
+    height: 2.5vw;
+    margin-top: 1rem;
+    background: rgb(255, 0, 152);
+    background: linear-gradient(90deg, rgba(255, 0, 152, 1) 0%, rgba(103, 44, 119, 1) 100%);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: "magistral", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cta-button:hover {
+    background-color: #db2777;
+}
+
+.products {
+    padding-top: 5vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.products2 {
+    padding-top: 5vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .products2 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.product {
+    transition: 1s;
+    padding: 1rem;
+}
+.product:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    padding: 1rem;
+}
+
+.product-image-wrapper {
+    position: relative;
+}
+
+.new-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ec4899;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+.product-image {
+    width: 100%;
+    height: 27vw;
+    object-fit: cover;
+}
+
+.product-image img{
+    height: auto;
+    object-fit: cover;
+}
+
+.product-name {
+    margin-top: 1rem;
+}
+
+.product-price {
+    margin-top: 0.5rem;
+}
+
+.follow-us {
+    width: auto;
+    padding-top: 5vw;
+    text-align: center;
+}
+
+.follow-us h2{
+    font-size: 40px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+.social-photo:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+.social-photo {
+    height: 2vw;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+
+.container2 {
+    width: auto;
+    background-color: #18181b;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 112rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .grid2 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo2 {
+    height: 5vw;
+    margin-bottom: 1rem;
+}
+
+.main-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 1.25rem;
+}
+
+
+
+.nav-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.nav-list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 0.25rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+@media (max-width: 375px) {
+    body {
+        background-color: #18181b;
+        color: white;
+        font-family: "magistral", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0;
+    }
+
+    .header {
+        height: 0.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .logo {
+        height: 2rem;
+    }
+
+    .nav {
+        margin-top: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding-left: 0;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        width: auto;
+    }
+
+    .navbtn {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+
+    .hero {
+        margin-top: 50vw;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .join-button {
+        width: 50vw;
+        height: 8vw;
+        margin-top: 1rem;
+        background: rgb(255, 0, 152);
+        background: linear-gradient(90deg, rgba(255, 0, 152, 1) 0%, rgba(103, 44, 119, 1) 100%);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        border: none;
+        cursor: pointer;
+        font-family: "magistral", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .section-dark {
+        background-color: #3d3d3d;
+        text-align: center;
+    }
+
+    .container3 {
+        padding-top: 5vw;
+    }
+
+    .section-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .section-item {
+        background-color: #4d4d4d;
+        padding: 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .section-light {
+        color: #fff;
+        padding: 4rem 0;
+    }
+
+    .back-link {
+        color: #7c7c7c;
+        text-decoration: none;
+    }
+
+    .back-link:hover {
+        color: #fff;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+    .section-description {
+        font-size: 1rem;
+        font-family: "magistral", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 1rem 0;
+    }
+
+    .cta-button {
+        width: 50vw;
+        height: 8vw;
+        margin-top: 1rem;
+        background: rgb(255, 0, 152);
+        background: linear-gradient(90deg, rgba(255, 0, 152, 1) 0%, rgba(103, 44, 119, 1) 100%);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        border: none;
+        cursor: pointer;
+        font-family: "magistral", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+      .cta-button {
+        width: 50vw;
+        height: 8vw;
+        margin-top: 1rem;
+        background: rgb(255, 0, 152);
+        background: linear-gradient(90deg, rgba(255, 0, 152, 1) 0%, rgba(103, 44, 119, 1) 100%);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        border: none;
+        cursor: pointer;
+        font-family: "magistral", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .cta-button:hover {
+        background-color: #db2777;
+    }
+
+    .products {
+        
+        padding-top: 5vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .products2 {
+        padding-top: 5vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .product {
+        padding: 1rem;
+    }
+
+    .product-image-wrapper {
+        position: relative;
+    }
+
+    .new-badge {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #ec4899;
+        color: #fff;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .product-image img {
+        height: auto;
+        object-fit: cover;
+    }
+
+    .product-name {
+        margin-top: 1rem;
+    }
+
+    .product-price {
+        margin-top: 0.5rem;
+    }
+
+    .follow-us {
+        width: auto;
+        padding-top: 5vw;
+        text-align: center;
+    }
+
+    .follow-us h2 {
+        font-size: 20px;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .social-photo {
+        height: 6vw;
+        border-radius: 0.5rem;
+    }
+
+    .container2 {
+        width: auto;
+        background-color: #18181b;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        max-width: 112rem;
+        margin: 0 auto;
+    }
+
+    .logo-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo2 {
+        height: 10vw;
+        margin-bottom: 1rem;
+    }
+
+    .main-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .sub-title {
+        font-size: 1.25rem;
+    }
+
+    .nav-title {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-list {
+        text-align: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    .nav-item {
+        margin-bottom: 0.25rem;
+    }
+
+    .nav-link {
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+}
